@@ -6,6 +6,7 @@ The Teamable App is my demo project built as part of the IT Beginners Course. It
 The goal of the project is to learn how modern software is planned, developed, tested, and deployed on the cloud.
 
 II. Objectives
+
 A. Understand the end-to-end software development workflow.
 
 B. Gain hands-on experience in:
@@ -18,6 +19,7 @@ Deployment (Linux server on Cloud)
 C. Learn version control using Git.
 
 III. Tools & Technologies
+
 Frontend: HTML, CSS, JavaScript, VueJS
 Backend: NodeJS
 Database: MongoDB
