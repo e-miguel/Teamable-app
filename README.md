@@ -2,6 +2,7 @@
 A hands-on guide through the software lifecycle
 
 I. Project Overview
+
 The Teamable App is my demo project built as part of the IT Beginners Course. It simulates a real-world software project, where we take up different IT roles (Product Owner, Developer, Tester, and System Administrator) and go through the full Software Development Life Cycle (SDLC).
 The goal of the project is to learn how modern software is planned, developed, tested, and deployed on the cloud.
 
