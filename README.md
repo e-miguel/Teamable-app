@@ -7,6 +7,7 @@ The goal of the project is to learn how modern software is planned, developed, t
 
 II. Objectives
 A. Understand the end-to-end software development workflow.
+
 B. Gain hands-on experience in:
 Frontend development (VueJS, HTML, CSS, JavaScript)
 Backend development (NodeJS)
