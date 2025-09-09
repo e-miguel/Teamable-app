@@ -1,4 +1,4 @@
-# teamable-app
+# Teamable-app
 A hands-on guide through the software lifecycle
 
 I. Project Overview
