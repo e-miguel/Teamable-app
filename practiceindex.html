@@ -1,0 +1,64 @@
+<script>
+
+    var post1 = {
+    content: 'This is my super post', 
+    likes: 300, 
+    shares: 20
+}
+    var post2 = {
+    content: 'This is my bit boring post',
+    likes: 10, 
+    shares: 0
+}
+
+    var post3 = {
+    content: 'This is Halseys post',
+    likes: 250, 
+    shares: 30
+}
+
+var facebookUserOne = {
+    userName: 'Miguel', 
+    password: 'mypwd', 
+    email: 'am@example.com', 
+    profileImage: 'reference-image',
+    friends: ['Mike', 'Anna', 'Jenny'],
+    posts: [post1, post2]
+    }
+
+    var facebookUserTwo = {
+    userName: 'Halsey', 
+    password: 'halseysecretpass', 
+    email: 'halsey@example.com', 
+    profileImage: 'reference-image',
+    friends: ['Jacob', 'Viola', 'Ayo'],
+    posts: [post3]
+    }
+
+    function replaceLikesWithReactions(user) {
+    for (post of user.posts) {
+        post.reactions = post.likes
+        delete post.likes
+        }
+
+        console.log(user)
+    }
+
+    var users = [facebookUserOne, facebookUserTwo]
+    for (user of users) {
+        user.interests = []
+        replaceLikesWithReactions(user)
+    }
+
+
+    var friends = ["Maria", "Tom", "Kate"]
+    friends.pop()
+    friends.push("newfriend")
+
+
+</script>
+
+
+<body>
+
+</body>
