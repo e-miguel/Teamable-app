@@ -44,4 +44,5 @@ facebookUsers[0].posts[length] = "post3"
 facebookUsers[0].posts.push()
 
 // remove last post in posts array in object - nested array
+
 facebookUsers[0].posts.pop()
